@@ -1,0 +1,50 @@
+input[type = text]{
+	height: 30px;
+	border-radius: 4px;
+	background-color: #FFF;
+	margin-left: 38%;
+	width: 400px;
+	font-size: 18px;
+}
+button{
+	height: 36px;
+	border-radius: 4px;
+	background-color: #8DEEEE;
+	font-size: 18px;
+}
+.result{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#mysql{
+	width: 48%;
+}
+#hbase{
+	width: 48%;
+}
+.label{
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+.content{
+	border: solid 2px #000000;
+	height: 450px;
+	border-radius: 10px;
+	background-color: #CFCFCF;
+}
+
+body{
+	/*background-image: url(https://msmobile.com.vn/upload_images/images/hinh-nen-phong-canh-dep-cho-may-tinh-9.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+}
+
+div#header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
